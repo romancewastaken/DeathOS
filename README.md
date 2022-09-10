@@ -22,3 +22,25 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 
 # Build
 * make build-x86_64
+
+## Licensing 
+Permissions
+* ✔️ Commercial use
+* ✔️ Modification
+* ✔️ Distribution
+* ✔️ Private use
+<br></br>
+
+Conditions
+* ❕ License and copyright notice
+* ❕ State changes
+* ❕ Disclose source
+* ❕ Same license
+<br></br>
+
+Limitations
+* ❌ Liability
+* ❌ Warranty
+<br></br>
+
+License being used: **GNU General Public License v2.0 license**
