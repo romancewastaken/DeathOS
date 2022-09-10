@@ -16,3 +16,6 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 * docker build buildenv -t deathos-buildenv
 
 # Load env
+* Linux/Mac: docker run --rm -v $pwd:/root/env deathos-buildenv
+* Windows cmd: docker run --rm -it -v %cd%:/root/env deathos-buildenv
+* Windows PS: docker run --rm -it -v "${pwd}:/root/env" deathos-buildenv
