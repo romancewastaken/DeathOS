@@ -11,3 +11,5 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 **This contains all of the printing functions, including printf**
 * src/impl/x86_64/boot
 **This folder contains all the files for when the os boots, including the 32 bit boot loader & 64 bit version, and the header**
+
+# Setup 
