@@ -6,4 +6,4 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 
 # File navigation 
 * src/impl/kernel/main.c
-This is the main kernel file, this gets ran after the boot loader
+**This is the main kernel file, this gets ran after the boot loader**
