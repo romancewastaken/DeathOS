@@ -13,3 +13,4 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 **This folder contains all the files for when the os boots, including the 32 bit boot loader & 64 bit version, and the header**
 
 # Setup 
+docker build buildenv -t deathos-buildenv
