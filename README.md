@@ -23,8 +23,20 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 # Build
 * make build-x86_64
 
-# Running
-Personally, I use [qemu](https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210203.exe), but you can feel free to use something easier such as [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+# Emulate
+Personally, I use [qemu](https://qemu.weilnetz.de/w64/2020/qemu-w64-setup-20200201.exe), but you can feel free to use something easier such as [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+
+# Real hardware/Barebones
+This is a pretty basic thing still if you've ever installed an OS before. 
+<br>
+* Download [rufus](https://github.com/pbatard/rufus/releases/download/v3.20/rufus-3.20.exe)
+* Open rufus
+* For boot selection, select kernel.iso inside \dist\x86_64
+* Set partition scheme and select MBR
+* For target system, select BIOS (or UEFI-CSM) 
+* Leave the rest as default, then just click START
+<br>
+Please note: Your CPU requires intergrated graphics since there is no graphics card driver
 
 ## Licensing 
 Permissions
