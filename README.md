@@ -24,7 +24,7 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 * make build-x86_64
 
 # Running
-Personally, I use (qemu)[https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210203.exe]
+Personally, I use [qemu](https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210203.exe), but you can feel free to use something easier such as [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 
 ## Licensing 
 Permissions
