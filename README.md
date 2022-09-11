@@ -23,6 +23,9 @@ Boot loader written in assembly, checks for 64 bit support and then checks for l
 # Build
 * make build-x86_64
 
+# Running
+Personally, I use (qemu)[https://qemu.weilnetz.de/w64/2021/qemu-w64-setup-20210203.exe]
+
 ## Licensing 
 Permissions
 * ✔️ Commercial use
